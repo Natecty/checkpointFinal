@@ -1,0 +1,32 @@
+.DogList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid;
+  min-width: 100vw;
+  min-height: 95vh;
+}
+
+.DogList h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.dog-container li {
+  list-style: none;
+  margin: 1.5rem;
+}
+
+.dog-container li ul {
+  text-decoration: none;
+  color: black;
+}
+
+#dog-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dog-title {
+  margin: 2rem;
+}

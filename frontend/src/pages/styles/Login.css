@@ -1,0 +1,41 @@
+.login {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #053229;
+  background-color: #053229;
+}
+
+.login-bis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#go-register-button {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.register-start {
+  border: none;
+  background-color: white;
+  padding: 0;
+}
+
+.register-start * {
+  border: 0;
+  color: black;
+}

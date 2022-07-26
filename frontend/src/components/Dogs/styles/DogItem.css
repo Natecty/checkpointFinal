@@ -1,0 +1,7 @@
+.style-card {
+  box-shadow: 2px 2px 2px #053229;
+}
+
+.style-card .card-dog :hover {
+  cursor: pointer;
+}

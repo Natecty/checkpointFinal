@@ -1,0 +1,24 @@
+.welcome-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+#welcome-image {
+  width: 90vw;
+  max-width: 400px;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.welcome h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.welcome h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}

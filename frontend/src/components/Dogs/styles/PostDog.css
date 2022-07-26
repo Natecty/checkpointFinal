@@ -1,0 +1,55 @@
+.ReactModal__Content,
+.ReactModal__Content--after-open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.postDogs {
+  padding: 1rem;
+  border: black 1px solid;
+  border-radius: 20px;
+}
+
+.title-post {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.form-post-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-post-text label {
+  font-size: 1.4rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.form-post-text input {
+  margin: 1rem;
+}
+
+.title-post-competence h1 {
+  font-size: 1.4rem;
+}
+
+.title-post-competence {
+  margin: 1rem;
+}
+
+.competence-checkbox label {
+  font-size: 1.2rem;
+}
+
+.button-dog {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
